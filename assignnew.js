@@ -1,8 +1,4 @@
-//Write a Javascript function to get an array and read the first element of an array.
-//Check whether it is prime or not.
 
-let array1=[5,3,8];
-console.log(array1[0]);
 
     
 
