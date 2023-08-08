@@ -1,8 +1,29 @@
+//Write a Javascript function to get an array and to read the first element of an array.Check whether
+// it is prime or not.
 
+function Prime(num)
+{
+    if (num<=1);
+    {
+    return 'Not prime';
+    }
+}
+for(let i=2;i<=Math.sqrt(num);i++)
+{
+ if (num%i===0);
+ {
+    return 'Not prime';
+ }
+}
+ return 'Yes,it is prime';
 
-    
-
-    
+function CheckFirst(arr)
+{
+    const f=arr[0];
+    return Prime(f);
+}
+const numbers=[7,9,8,3,5,6];
+console.log("First item is" + numbers[0]+',' + CheckFirst(numbers));
 
 // Write a Javascript program to find the most frequent item of an array
 var array2=[5,6,8,6,6,2,3,6];
@@ -22,9 +43,8 @@ for (var i=0;i<array2.length;i++)
     }
     }
     m=0;
-
 }
-console.log(item+" ( " +mf +"times)");
+console.log(item+" ( " + mf +"times)");
 
 //Write a Javascript for loop that will iterate from 0 to 15.
 //For each iteration,it will check if the current number is odd or even
