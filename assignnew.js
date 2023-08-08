@@ -81,3 +81,4 @@ while(i--)
 console.log(squaresum([2,4,6,8,10]))
 
 
+
